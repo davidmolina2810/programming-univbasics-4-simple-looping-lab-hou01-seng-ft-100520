@@ -38,8 +38,8 @@ end
 #6. Return new array
 def return_string_array(array)
   string_array = []
-  counter = 0 
-  while counter < array.length do 
+  counter = 0
+  while counter < array.length do
       string_array.push(array[counter].to_s)
   end
 end
