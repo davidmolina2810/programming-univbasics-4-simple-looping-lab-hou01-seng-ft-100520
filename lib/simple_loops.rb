@@ -32,9 +32,8 @@ end
 #1. Get array
 #2. Set counter
 #3. Create empty array to hold string array
-#3. While counter < array.length
-  #4. Convert array[counter].to_s (to string) and set to variable
-  #5. empty array.push(variable)
+#4. While counter < array.length
+  #5. Convert array[counter].to_s (to string) and .push it into string_array
 #6. Return new array
 def return_string_array(array)
   string_array = []
