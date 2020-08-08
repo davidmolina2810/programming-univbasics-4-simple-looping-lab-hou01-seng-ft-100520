@@ -22,7 +22,7 @@ end
 #3. While counter < array.length
   #4. puts array[counter]
 def output_array(array)
-  counter = 0 
+  counter = 0
   while counter < array.length do
     puts array[counter]
   end
